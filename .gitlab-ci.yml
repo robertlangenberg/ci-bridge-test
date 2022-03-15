@@ -1,3 +1,4 @@
 execute:
   script:
     - echo "HALLO WELT"
+    - sleep 15

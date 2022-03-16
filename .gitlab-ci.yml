@@ -1,5 +1,5 @@
 execute:
-  script:
+  scriptx:
     - echo "HALLO WELT"
     - sleep 15
 

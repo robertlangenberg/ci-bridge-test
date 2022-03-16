@@ -1,5 +1,10 @@
 execute:
-  scriptx:
-    - echo "HALLO WELT"
-    - sleep 15
+  script:
+    - echo "I succeed quickly"
 
+
+failing_job:
+  script:
+    - echo "I will fail"
+    - sleep 15
+    - exit 1

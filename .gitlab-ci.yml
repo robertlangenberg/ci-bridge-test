@@ -5,6 +5,6 @@ execute:
 
 failing_job:
   script:
-    - echo "I will fail"
+    - echo "I will also succeed now"
     - sleep 15
-    - exit 1
+    - exit 0
